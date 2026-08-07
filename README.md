@@ -1,5 +1,6 @@
 # Test-Cases
-TEST SUITE FOR SUACE DEMO SITE
+TEST SUITE FOR SAUCE DEMO SITE
+
 https://www.saucedemo.com/
 
 I've created a Test Suite for SauceDemo site using Claude. In the prompt I included the Happy Paths, Negative test cases and Edge cases (This is basically for Manual Testing). The file is attached as saucedemo_test_suite.csv
