@@ -22,10 +22,10 @@ Structure:
   
   *README.md — setup and run instructions
 
-**To run it:**
-npm install,
-npx playwright install chromium,
-npm test
+**To run it:** <br>
+npm install, <br>
+npx playwright install chromium, <br>
+npm test <br>
 
 One design note: CHK-04 computes expected otals dynamically (sum of item prices vs. displayed subtotal/tax/total) instead of hardcoding prices, so it won't break if SauceDemo changes product pricing.
 
