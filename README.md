@@ -8,7 +8,7 @@ I've created a Test Suite for SauceDemo site using Claude. In the prompt I inclu
 
 A few notes on approach:
 - SauceDemo's exact behavior here can shift between deployments, so worth confirming against the live site before automating.
-- The problem_user and error_user cases are especially useful since they're designed to expose bugs — good candidates for your negative/edge suite.
+- The *problem_user* and *error_user* cases are especially useful since they're designed to expose bugs — good candidates for your negative/edge suite.
 
 I also converted the highest-priority (P1) cases into actual automated test code for Playwright.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -22,7 +22,7 @@ Structure:
   
   *README.md — setup and run instructions
 
-To run it:
+**To run it:**
 npm install,
 npx playwright install chromium,
 npm test
