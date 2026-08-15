@@ -13,10 +13,10 @@ A few notes on approach:
 I also converted the highest-priority (P1) cases into actual automated test code for Playwright.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Structure:** <br>
- *pages/ — Page Object Model for Login, Inventory, Cart, Checkout <br>
- *tests/ — one spec file per suite area, test names tagged with their original Test ID (e.g. CHK-04) for traceability back to the CSV <br>
- *playwright.config.ts — points at the live saucedemo.com, HTML + list reporters <br>
- *README.md — setup and run instructions <br>
+ * pages/ — Page Object Model for Login, Inventory, Cart, Checkout <br>
+ * tests/ — one spec file per suite area, test names tagged with their original Test ID (e.g. CHK-04) for traceability back to the CSV <br>
+ * playwright.config.ts — points at the live saucedemo.com, HTML + list reporters <br>
+ * README.md — setup and run instructions <br>
 
 **To run it:** <br>
 npm install, <br>
